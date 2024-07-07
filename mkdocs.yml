@@ -2,8 +2,8 @@ site_name: Stavební geodézie A (154SGEA) – ČÁST GIS
 nav:
   - Charakteristika předmětu: index.md
   - Cvičení:
-      - Úvod do práce v prostředí ArcGIS Online, prostorová data, datové zdroje, atributová tabulka: cviceni/cviceni3.md
-      - Témata cvičení 2: cviceni/cviceni4.md
+      - Práce s webovými mapovými službami: cviceni/cviceni03.md
+      - Tvorba webové mapy: cviceni/cviceni04.md
   - Data: data.md
   - Hodnocení úloh: hodnoceni.md
 plugins:
@@ -91,4 +91,5 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.caret
   - pymdownx.tilde
+  - sane_lists
 

@@ -31,7 +31,7 @@ Pokud by vás geomatika (obor zabývající se geografickými informačními sys
     __sdílet__ vlastní data (mapy) prostřednictvím webu
 
 </div>
-
+<!--
 <div class="gallery_container" markdown>
 ![](./assets/index/01.jpg){: .no-filter }
 ![](./assets/index/02.jpg){: .no-filter }
@@ -46,7 +46,7 @@ Pokud by vás geomatika (obor zabývající se geografickými informačními sys
 ![](./assets/index/11.jpg){: .no-filter }
 ![](./assets/index/12.jpg){: .no-filter }
 </div>
-
+-->
 <!-- ## Doporučená literatura
 
 1. Kolář, J.: Geografické informační systémy 10. Vydavatelství ČVUT, Praha 1998.
@@ -60,22 +60,18 @@ Pokud by vás geomatika (obor zabývající se geografickými informačními sys
 účast doporučená
 {: style="opacity:50%;margin-top:0;"}
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-1.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-1.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
 __prof. Ing. Jiří Cajthaml, Ph.D.__{style="padding-right:.7rem;"}
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} 
-__Ing. Tomáš Janata, Ph.D.__
+{style="display:inline; white-space: nowrap;"}
+<!-- kvuli zobrazovani na mobilu -->
 
-<!-- jine reseni jsem bohuzel nenasel, ciselne seznamy to vzdycky pri renderovani precisluje od jednicky, viz dokumentace 'Lists' -->
-<div class="ol_34" markdown>
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} __Ing. Tomáš Janata, Ph.D.__
+{style="display:inline; white-space: nowrap;"}
+<!-- kvuli zobrazovani na mobilu -->
+
 3. __GIS__: základní pojmy GIS, vektorová a rastrová data, topologie, atributová data, webové mapové služby, zdroje dat (OSM, RÚIAN, WMS), geoprostorové analýzy, 3D GIS, cloudové řešení ArcGIS Online. 
 4. __Kartografie__: základní pojmy v kartografii, znakový klíč a jazyk mapy, polohopis, výškopis, popis, kartografická generalizace, státní mapové dílo středního měřítka (civilní i vojenské), tematická kartografie, webová kartografie.
-</div>
 
-<style>
-    /* SOURCE (edited): https://stackoverflow.com/questions/779016/is-it-possible-to-specify-a-starting-number-for-an-ordered-list */
-    div.ol_34 ol li:nth-child(1)::marker {content: "3. ";}
-    div.ol_34 ol li:nth-child(2)::marker {content: "4. ";}
-</style>
 
 ## Harmonogram {: style="margin-bottom:0;"}
 
