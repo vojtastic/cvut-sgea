@@ -87,7 +87,7 @@ Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (vi
 
 1. __příslušnost k obci__ a v jakém __katastrálním území__ dané obce bod leží
 
-    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="vrstva Obec a KatastralniUzemi"}
+    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="podvrstva Obec a KatastralniUzemi"}
 
 ---
 
@@ -99,7 +99,7 @@ Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (vi
 
 3. adresu nejbližšího __adresního bodu__
 
-    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="vrstva AdresniMisto"}
+    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="podvrstva AdresniMisto"}
 
 ---
 
