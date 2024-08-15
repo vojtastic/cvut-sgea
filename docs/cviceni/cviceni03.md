@@ -83,15 +83,15 @@ style="border: .05rem solid #ededed; border-radius: .1rem;"-->
 
 ## Zadání úlohy
 
-Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (viz níže). S využitím __mapové prohlížečky ArcGIS Online__, __mapových služeb__ či __geoportálů__ zjistěte:
+Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (viz níže). S využitím __mapové prohlížečky ArcGIS Online__, __mapových služeb__ či __geoportálů__ o zadaném bodu zjistěte:
 
-1. __příslušnost k obci__ a v jakém __katastrálním území__ dané obce bod leží
+1. __příslušnost k obci__ a v jakém __katastrálním území__ bod leží
 
-    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="podvrstva Obec a KatastralniUzemi"}
+    - využijte vrstev __:material-layers: Obec__{.bg title="podvrstva  a KatastralniUzemi"} a __:material-layers: KatastralniUzemi__{.bg} z [__Geoportálu ČÚZK__](https://geoportal.cuzk.cz/){.color_def .underlined_dotted .external_link_icon target="_blank"} (prohlížecí služba databáze RÚIAN).
 
 ---
 
-2. __geologické podloží__ pod tímto místem (hornina / horninový typ)
+2. __geologické podloží__ pod zadaným bodem (hornina / horninový typ)
 
     - využijte vhodné vrstvy ze stránek [__České geologické služby__](https://cgs.gov.cz/ "Webové služby → geologie (27) → Geologická mapa 1 : 50 000 (GEOČR50)"){.color_def .underlined_dotted .external_link_icon target="_blank"}
 
@@ -99,13 +99,13 @@ Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (vi
 
 3. adresu nejbližšího __adresního bodu__
 
-    - využijte vhodné vrstvy z databáze __:material-layers: RÚIAN__{.bg title="podvrstva AdresniMisto"}
+    - využijte vrstvy __:material-layers: AdresniMisto__{.bg} z [__Geoportálu ČÚZK__](https://geoportal.cuzk.cz/){.color_def .underlined_dotted .external_link_icon target="_blank"} (prohlížecí služba databáze RÚIAN).
 
 ---
 
 4. poštovní směrovací číslo nejbližšího __poštovního úřadu__
 
-    - využijte vrstvy od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pobocky_ceske_posty/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA) s nastaveným __filtrem__{.color_def .underlined_dotted title="Hodnoty filtru: &#34;Podávací&#34;, &#34;Samostatná pošta Partner&#34;, &#34;Dodejna I&#34;, &#34;Dodejna II&#34;, &#34;Samostatná dodejna&#34;" target="_blank"}.
+    - využijte vrstvy __:material-layers: Pobočky České pošty__{.bg} od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pobocky_ceske_posty/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA) s nastaveným __filtrem__{.color_def .underlined_dotted title="Hodnoty filtru: &#34;Podávací&#34;, &#34;Samostatná pošta Partner&#34;, &#34;Dodejna I&#34;, &#34;Dodejna II&#34;, &#34;Samostatná dodejna&#34;" target="_blank"}.
 
 ---
 
@@ -120,18 +120,30 @@ Je dán __bod o zeměpisných souřadnicích__ dle individuálního zadání (vi
 
 ---
 
-6. k jaké __změně využití území__ v dané lokalitě došlo mezi lety 1990 a 2018 (__uveďte kategorie__ Land Cover pro obě období a jejich __porovnání__)
+6. k jaké __změně využití území__ v zadaném bodě došlo mezi lety 1990 a 2018 (__uveďte kategorie__ Land Cover pro obě období a jejich __porovnání__)
 
     - využijte data evropského programu [__Copernicus__](https://www.copernicus.eu/cs "program EU pro družicové pozorování Země v zájmu obecného užitku všech občanů"){.color_def .underlined_dotted .external_link_icon target="_blank"} – __:material-layers: Corine Land Cover Europe__{.bg .color_def target="_blank"}
     - dostupné ze stránek &nbsp;[__Evropské agentury pro životní prostředí (EEA)__](https://land.copernicus.eu/en/products/corine-land-cover?tab=main){ .color_def .underlined_dotted .external_link_icon target="_blank"}&nbsp; či &nbsp;[__Copernicus Land Monitoring Service (CLMS)__](https://www.eea.europa.eu/en/datahub/datahubitem-view/a5144888-ee2a-4e5d-a7b0-2bbf21656348){ .color_def .underlined_dotted .external_link_icon target="_blank"}
 
 ---
 
-7. zda dochází v lokalitě k překročení hodnoty 20 µg/m³ u roční průměrné koncentrace suspendovaných prachových částic PM10 a jakých hodnot v ng/m³ dosahují roční průměrné koncentrace benzoapyrenu (použijte službu III_5_7_8_CHMU_ovzdusi z ArcGIS Online, vrstva ČHMÚ ovzduší – Koncentrace látek znečišťujících ovzduší v gridu 1x1 km, rok 2019)
+7. ~~zda dochází v lokalitě k překročení hodnoty 20 µg/m³ u roční průměrné koncentrace suspendovaných prachových částic PM10 a jakých hodnot v ng/m³ dosahují roční průměrné koncentrace benzoapyrenu (použijte službu III_5_7_8_CHMU_ovzdusi z ArcGIS Online, vrstva ČHMÚ ovzduší – Koncentrace látek znečišťujících ovzduší v gridu 1x1 km, rok 2019)~~
+
+    - ~~využijte vrstvy od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/chmu_ovzdusi/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA).~~
 
 ---
 
-8. příslušnost dané lokality ke __stavebnímu a matričnímu úřadu__ (možno využít vrstvu CENIA urady na ArcGIS Online)
+7. jaké hodnoty dosahovala v zadané lokalitě __intenzita světelného znečištění__ v roce 2022
+
+    - využijte vrstvy __:material-layers: Světelné znečištění v ČR za rok 2022__{.bg} od [__České informační agentury životního prostředí__](https://tiledimageservices2.arcgis.com/LlQJoYHf9cwrM7NJ/arcgis/rest/services/raster01_final3crf/ImageServer "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA). <figcaption>(vrstva byla přepublikována pro účely výuky – odkaz proto nevede přímo na server agentury CENIA)</figcaption>
+
+    <!--  Puvodni vrstva ZDE: https://gis.cenia.cz/geoserver/svetelne_znecisteni/wms?service=WMS&request=GetCapabilities  -->
+
+---
+
+8. příslušnost zadané lokality ke __stavebnímu a matričnímu úřadu__
+
+    - využijte vrstvy __:material-layers: Působnost úřadů__{.bg} od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pusobnost_uradu/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA).
 
 ---
 

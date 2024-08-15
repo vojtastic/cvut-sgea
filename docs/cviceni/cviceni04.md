@@ -238,7 +238,7 @@ Pomocí mapových služeb od ČÚZK vytvořte __webovou mapu__ obsahující budo
 
     - nastavte mapové okno tak, aby byla __viditelná celá hranice zadané obce__ a *parametr __"Processing Extent"__ nastavte na __"Display Extent"__*{.primary_color .no-dec} (parametr omezí výpočet na rozsah mapového okna, výrazně se tím sníží cena výpočtu)
 
-- Pomocí stylů __nastavte budovám symbologii dle atributu "Připojení na kanalizační síť"__. Kategorie typu "nedefinováno", "nezjištěno" apod. __musí mít nastavenou neutrální šedou barvu__ (dle kartografických zvyklostí).
+- Pomocí stylů __nastavte budovám symbologii dle atributu "Připojení na kanalizační síť"__. Kategorie typu "nedefinováno", "nezjištěno" apod. __musí mít nastavenou neutrální šedou barvu__ (dle kartografických zvyklostí). Barvy výplně zvolte dle citu, volitelně přidejte i barevné ohraničení.__(6)__{title="ukázka"}
 
 - Vrstvu duplikujte a nově vytvořené kopii __nastavte symbologii dle atributu "Připojení na rozvod plynu"__. V seznamu vrstev __změňte číselné kategorie na slovní popisy__{.primary_color} dle následujícího klíče:
 
@@ -246,7 +246,7 @@ Pomocí mapových služeb od ČÚZK vytvořte __webovou mapu__ obsahující budo
 
 <div markdown>
 
-__:material-pipe-valve: Připojení na kanalizační síť__
+__:material-pipe: Připojení na kanalizační síť__
 {align="center" style="margin:0px;"}
 
 |KÓD| NÁZEV                     |
@@ -276,18 +276,32 @@ __:material-gas-burner: Připojení na rozvod plynu__
 </div>
 </div>
 
-- Přidejte __Základní topografickou mapu (S-JTSK)__ od ČÚZK či __ortofoto (S-JTSK)__ od ČÚZK __jako podkladovou mapu__.
+- Přidejte __Základní topografickou mapu (S-JTSK)__ od ČÚZK či __ortofoto (S-JTSK)__ od ČÚZK __jako podkladovou mapu__.__(7)__{title="ukázka"}
 
     - Aby se vrstva přidala jako podkladová mapa (Basemap), je nutné ji přidat tlačítkem __:material-button-cursor: Použít jako podkladovou mapu__{.bg} (Use a basemap)
     - Nastavením podkladové mapy v systému JTSK dojde ke správnému zarovnání budov s podkladovou mapou.
 
-- Vrstvám s klasifikací budov __nastavte exkluzivní viditelnost__{.underlined_dotted title="funguje pouze na seskupené vrstvy"}, aby byla při přepínání viditelná vždy pouze jedna z nich. Ostatní vrstvy z mapy odstraňte.
+<!-- NEFUNGUJE MI TA ZMENA PROJEKCE, U TETO VRSTVY TO TREBA FUNGUJE: geoappext.nrcan.gc.ca/arcgis/rest/services/BaseMaps/CBMT3978/MapServer -->
+
+- Vrstvám s klasifikací budov __nastavte exkluzivní viditelnost__{.underlined_dotted title="funguje pouze na seskupené vrstvy"}, aby byla při přepínání viditelná vždy pouze jedna z nich. Ostatní vrstvy z mapy odstraňte.__(8)__{title="ukázka"}
 
 - __Webovou mapu uložte__ s názvem "Jmeno_Prijmeni_SGEA2025" a __nastavte sdílení v rámci oganizace__{.primary_color} nebo __veřejné__{.primary_color}.
+
+- Vyučujícímu odevzdejte __URL adresu webové mapy__.__(9)__
+
+???+ task-fg-color "Výsledek (část první): Webová mapa"
+
+    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://experience.arcgis.com/experience/0e6a7769af1d479489af74e2f98ca195"></iframe>
+
+
+<!--
 
 ![](https://dummyimage.com/600x400/0065bd/57b1ff&text=v%C3%BDsledn%C3%A1+webov%C3%A1+mapa){width=500px}
 {align=center}
 <figcaption>ukázka správného výsledku (webová mapa)</figcaption>
+
+-->
+
 
 ---
 
@@ -297,17 +311,30 @@ __:material-gas-burner: Připojení na rozvod plynu__
 
 - Konvertovaný soubor otevřete v CAD software a __vytvořte jednoduchý výkres__ obsahující pouze __obvod zadané obce__ a (jinou barvou) __obvody stavebních objektů__ v ní. Všechny objekty musí být ve formě linií. Výkres odevzdejte ve formátu PDF.
 
+???+ task-fg-color "Výsledek (část druhá): Výkres"
+
+    <iframe src="https://drive.google.com/file/d/1MSAjhVjESNXBqnbiRNS2tz16X78QGy1Q/preview" width="100%" height="400" style="border:0;"></iframe>
+
+- Pomocí :simple-arcgis: ArcGIS Pro (desktopová verze platformy ArcGIS, mimo rozsah kurzu) lze CAD výkres generovat s rozlišením vrstev dle atributu (tedy například rozlišit stavební objekty dle připojení na kanalizační síť i v CAd výkresu)
+<!--
+
 ![](https://dummyimage.com/600x400/0065bd/57b1ff&text=výsledný+CAD+výkres){width=500px}
 {align=center}
 <figcaption>ukázka správného výsledku (CAD výkres)</figcaption>
 
-</div>
+-->
+
+</div> <!-- pro anotace -->
 
 1.  ![](../assets/cviceni04/img01.png){ .no-filter width=700px} vrstva "RÚIAN/Obec"
 2.  ![](../assets/cviceni04/img02.png){ .no-filter width=700px} filtr dle kódu obce
 3.  ![](../assets/cviceni04/img03.png){ .no-filter width=700px} vrstva "RÚIAN/StavebniObjekt"
 4.  ![](../assets/cviceni04/img04.png){ .no-filter width=200px}<br> parametry nástroje "Overlay Layers"
 5.  ![](../assets/cviceni04/img05.png){ .no-filter width=700px} výsledná vrstva (budovy jsou pouze uvnitř hraice obce)
+6.  ![](../assets/cviceni04/img06.png){ .no-filter width=700px} změna symbologie (barva výplně a obrysu)
+7.  ![](../assets/cviceni04/img07.png){ .no-filter width=700px} změna podkladové mapy (Základní topografická mapa)
+8.  ![](../assets/cviceni04/img08.png){ .no-filter width=700px} exkluzivní viditelnost skupiny vrstev v legendě
+9.  __Příklad odevzdaného odkazu:__<br>https://ctuprague.maps.arcgis.com/apps/mapviewer/index.html?webmap=21df15ae2ca9458794a16a8fd9078b78
 
 
 <hr class="level-1">
@@ -324,13 +351,16 @@ Povinnými výstupy úlohy jsou __webová mapa__ a __CAD výkres__. Webová mapa
     - vrstva se stavebními objekty __omezena hranicí obce__, naopak žádné __stavební objekty nesmí chybět__
     - __legenda se slovními popisy__ (nikoli s číselnými kódy)
     - kategorie typu "nedefinováno", "nezjištěno" apod. neutrální __šedou barvou__
+    - podkladová mapa – __Základní topografická mapa__ nebo __Ortofoto od Zeměměřického úřadu__
+    - na vrstvy rozlišující připojení na kanalizaci a plyn nastavená __exkluzivní viditelnost__ (nesmí být možné je zobrazit současně)
     - sdílení webové mapy nastaveno __"v rámci organizace"__ či __"veřejně"__, __bez správného sdílení k mapě nemá vyučující přístup a nedojde ke kontrole__{style="color:#c22521;" .icon-exclm .no-dec}
 
     __CAD výkres__
 
-    - __formát DWG__
+    - __formát PDF__
     - obsahem musí být __pouze hranice obce__ a __stavební objekty__ (omezené hranicí obce)
     - hranice obce __barevně odlišena__ od stavebních objektů
+    - __název obce__ stejnou barvou jako hranice obce
 
 ### Opravy
 

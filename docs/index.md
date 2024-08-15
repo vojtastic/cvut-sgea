@@ -55,25 +55,63 @@ Pokud by vás geomatika (obor zabývající se geografickými informačními sys
 4. Hrubý M.: Geografické Informační Systémy (GIS) - Studijní opora. VÚT v Brně, 91 str.
 5. Tuček J.: Geografické informační systémy, Praha Computer Press, 1998. -->
 
-## Přednášky {: style="margin-bottom:0;"}
+---
+
+## Přednášky :material-lectern:{style="clip-path: circle(); color:var(--md-default-bg-color); background-color:var(--md-default-fg-color); padding:6px; font-size:120%; vertical-align:-.1em"} {: style="margin-bottom:0;"}
 
 účast doporučená
 {: style="opacity:50%;margin-top:0;"}
 
 ![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-1.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__prof. Ing. Jiří Cajthaml, Ph.D.__{style="padding-right:.7rem;"}
-{style="display:inline; white-space: nowrap;"}
+__prof. Ing. Jiří Cajthaml, Ph.D. [:fontawesome-solid-square-envelope:](mailto:jiri.cajthaml@fsv.cvut.cz "jiri.cajthaml@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} __Ing. Tomáš Janata, Ph.D.__
-{style="display:inline; white-space: nowrap;"}
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} __Ing. Tomáš Janata, Ph.D. [:fontawesome-solid-square-envelope:](mailto:tomas.janata@fsv.cvut.cz "tomas.janata@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__
+{style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
-3. __GIS__: základní pojmy GIS, vektorová a rastrová data, topologie, atributová data, webové mapové služby, zdroje dat (OSM, RÚIAN, WMS), geoprostorové analýzy, 3D GIS, cloudové řešení ArcGIS Online. 
-4. __Kartografie__: základní pojmy v kartografii, znakový klíč a jazyk mapy, polohopis, výškopis, popis, kartografická generalizace, státní mapové dílo středního měřítka (civilní i vojenské), tematická kartografie, webová kartografie.
+3. __GIS__: základní pojmy GIS, vektorová a rastrová data, topologie, atributová data, webové mapové služby, zdroje dat (OSM, RÚIAN, WMS), geoprostorové analýzy, 3D GIS, cloudové řešení ArcGIS Online. [:material-file-pdf-box:](# "stažení prezentace"){style="color:var(--md-default-fg-color);"}
+4. __Kartografie__: základní pojmy v kartografii, znakový klíč a jazyk mapy, polohopis, výškopis, popis, kartografická generalizace, státní mapové dílo středního měřítka (civilní i vojenské), tematická kartografie, webová kartografie. [:material-file-pdf-box:](# "stažení prezentace"){style="color:var(--md-default-fg-color);"}
 
+Ostatní přednášky zajišťuje Katedra speciální geodézie (K154).
 
-## Harmonogram {: style="margin-bottom:0;"}
+---
+
+## Cvičení :material-human-male-board:{style="clip-path: circle(); color:var(--md-default-bg-color); background-color:var(--md-default-fg-color); padding:6px; font-size:120%; vertical-align:-.1em"} {: style="margin-bottom:0;"}
+
+účast povinná (s možnými náhradami)
+{: style="opacity:50%;margin-top:0;"}
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/Ing.-Marek-Hoffmann_IMG_9809_s1@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. Marek Hoffmann [:fontawesome-solid-square-envelope:](mailto:marek.hoffmann@fsv.cvut.cz "marek.hoffmann@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. Vojtěch Cehák [:fontawesome-solid-square-envelope:](mailto:vojtech.cehak@fsv.cvut.cz "vojtech.cehak@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-13.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. Josef Münzberger [:fontawesome-solid-square-envelope:](mailto:josef.munzberger@fsv.cvut.cz "josef.munzberger@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Mgr. Petra Justová [:fontawesome-solid-square-envelope:](mailto:petra.justova@fsv.cvut.cz "petra.justova@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+3. __Práce s webovými mapovými službami:__ Připojením webových vrstev z různých zdrojů do jedné mapy získáte základní informace o zadaném místě. Jde o informace administrativního charakteru (např. katastrální území), ale i přírodích poměrů (např. nadmořská výška či chráněná území v okolí). Výstupem cvičení je technická zpráva.
+
+4. __Tvorba webové mapy, export dat:__ Pomocí základní překryvné analýzy a změny symbologie upravíme data tak, aby vznikla efektní webová mapa s vlastním obsahem. Na závěr data importujeme do CAD software a vytvoříme z nich základní výkres. Výstupem cvičení je webová mapa a CAD výkres.
+
+Ostatní cvičení zajišťuje Katedra speciální geodézie (K154).
+
+---
+
+## Harmonogram :material-calendar:{style="clip-path: circle(); color:var(--md-default-bg-color); background-color:var(--md-default-fg-color); padding:6px; font-size:120%; vertical-align:-.1em"} {: style="margin-bottom:0;"}
 
 [![](./assets/index/schedule_light.svg#only-light){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B232){target="_blank"}
 [![](./assets/index/schedule_dark.svg#only-dark){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B232){target="_blank"}
