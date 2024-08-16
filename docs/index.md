@@ -103,6 +103,20 @@ __Mgr. Petra Justová [:fontawesome-solid-square-envelope:](mailto:petra.justova
 {style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. František Mužík [:fontawesome-solid-square-envelope:](mailto:frantisek.muzik@fsv.cvut.cz "frantisek.muzik@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. Jaroslav Šedina, Ph.D. [:fontawesome-solid-square-envelope:](mailto:jaroslav.sedina@fsv.cvut.cz "jaroslav.sedina@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} __Ing. Tomáš Janata, Ph.D. [:fontawesome-solid-square-envelope:](mailto:tomas.janata@fsv.cvut.cz "tomas.janata@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
 3. __Práce s webovými mapovými službami:__ Připojením webových vrstev z různých zdrojů do jedné mapy získáte základní informace o zadaném místě. Jde o informace administrativního charakteru (např. katastrální území), ale i přírodích poměrů (např. nadmořská výška či chráněná území v okolí). Výstupem cvičení je technická zpráva.
 
 4. __Tvorba webové mapy, export dat:__ Pomocí základní překryvné analýzy a změny symbologie upravíme data tak, aby vznikla efektní webová mapa s vlastním obsahem. Na závěr data importujeme do CAD software a vytvoříme z nich základní výkres. Výstupem cvičení je webová mapa a CAD výkres.

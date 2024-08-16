@@ -103,6 +103,8 @@ div.table_centered .md-typeset__scrollwrap {text-align: center;}
 
 .primary_color {color:var(--md-primary-fg-color);}
 
+.color_def {color:var(--md-default-fg-color) !important;}
+
 .underlined {
   border-radius: .1rem;
   background-color: var(--md-code-bg-color);
@@ -120,6 +122,10 @@ div.table_centered .md-typeset__scrollwrap {text-align: center;}
 }
 
 .underlined .twemoji,.outlined_code .twemoji {vertical-align:-10% !important;}
+
+.underlined_dotted {border-bottom: .05rem dotted var(--md-default-fg-color--light);}
+
+.bg {border-radius: .1rem;  background-color: var(--md-default-fg-color--lightest);  padding:.1em .4em; white-space: nowrap;}
 
 .outlined_code {
   font-family: var(--md-code-font-family);
@@ -179,6 +185,8 @@ div.table_centered .md-typeset__scrollwrap {text-align: center;}
   font-style:  unset; /* in case of using  _content_  (single underscore) */ 
   font-weight: normal;
 }
+
+.no-wrap {white-space: nowrap;}
 
 .icon-example::before{
   content: "";
