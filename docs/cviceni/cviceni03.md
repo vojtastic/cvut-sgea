@@ -94,43 +94,49 @@ S využitím __mapové prohlížečky ArcGIS Online__, __mapových služeb__ či
 
 1. __příslušnost k obci__ a v jakém __katastrálním území__ bod leží
 
-    - využijte vrstev __:material-layers: Obec__{.bg title="podvrstva  a KatastralniUzemi"} a __:material-layers: KatastralniUzemi__{.bg} z [__Geoportálu ČÚZK__](https://geoportal.cuzk.cz/){.color_def .underlined_dotted .external_link_icon target="_blank"} (prohlížecí služba databáze RÚIAN).
+    - využijte vrstev __:material-layers: Obec__{.bg} a __:material-layers: KatastralniUzemi__{.bg} z [__Geoportálu ČÚZK__](https://geoportal.cuzk.cz/){.color_def .underlined_dotted .external_link_icon target="_blank"} (prohlížecí služba databáze RÚIAN).
+    - jako odpověď uveďte přesný __název obce__{.outlined} a __název a číslo katastrálního území__{.outlined}
 
 ---
 
-2. __geologické podloží__ pod zadaným bodem (uvěďte atribut __hornina__ a __horninový typ__)
+2. __geologické podloží__ pod zadaným bodem
 
     - využijte vhodné vrstvy ze stránek [__České geologické služby__](https://cgs.gov.cz/ "Webové služby → geologie (27) → Geologická mapa 1 : 50 000 (GEOČR50)"){.color_def .underlined_dotted .external_link_icon target="_blank"}
+    - jako odpověď uveďte atributy __hornina__{.outlined} a __horninový typ__{.outlined}
 
 ---
 
 3. adresu nejbližšího __adresního bodu__
 
     - využijte vrstvy __:material-layers: AdresniMisto__{.bg} z [__Geoportálu ČÚZK__](https://geoportal.cuzk.cz/){.color_def .underlined_dotted .external_link_icon target="_blank"} (prohlížecí služba databáze RÚIAN).
+    - jako odpověď uveďte __přesnou adresu__{.outlined} (z atributu)
 
 ---
 
-4. poštovní směrovací číslo nejbližší pobočky __České pošty__ (__pouze pobočky, ne výdejní boxy apod.__{.primary_color})
+4. poštovní směrovací číslo nejbližší pobočky __České pošty__ (__pouze pobočky, ne výdejní boxy apod.__ – viz filtr níže)
 
-    - využijte vrstvy __:material-layers: Pobočky České pošty__{.bg} od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pobocky_ceske_posty/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA) s nastaveným __filtrem__{.color_def .underlined_dotted title="Hodnoty filtru: &#34;Podávací&#34;, &#34;Samostatná pošta Partner&#34;, &#34;Dodejna I&#34;, &#34;Dodejna II&#34;, &#34;Samostatná dodejna&#34;" target="_blank"}.
+    - využijte vrstvy __:material-layers: Pobočky České pošty__{.bg} od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pobocky_ceske_posty/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA) s nastaveným __filtrem__ nastaveným na hodnoty `Podávací`, `Samostatná pošta Partner`, `Dodejna I`, `Dodejna II` a `Samostatná dodejna`.
+    - jako odpověď uveďte __pětimístné poštovní směrovací číslo nejbližší pobočky__{.outlined}
 
 ---
 
 5. __nadmořskou výšku lokality__
 
-    - výšku odečtěte ze __tří různých mapových podkladů__{.primary_color} a __výsledky porovnejte__
+    - výšku odečtěte ze __tří různých mapových podkladů__{.primary_color} ~~a __výsledky porovnejte__~~
     - doporučenými zdroji jsou např. 
     [__Základní topografické mapy ČR__](https://ags.cuzk.cz/geoprohlizec/ "obsahují vrstevnice s popisy výšky"){.color_def .underlined_dotted .external_link_icon target="_blank"}, webová aplikace 
     [__Analýzy výškopisu__](https://ags.cuzk.cz/av/ "režim Výpis souřadnic bodu"){.color_def .underlined_dotted .external_link_icon target="_blank"} 
     (ČÚZK) nebo mapový portál 
     [__Mapy.cz__](https://mapy.cz/ "funkce Měření → Výškový profil"){.color_def .underlined_dotted .external_link_icon target="_blank"}
+    - jako odpověď uveďte __3 hodnoty nadmořské výšky včetně zdroje každé z nich__{.outlined}
 
 ---
 
-6. k jaké __změně využití území__ v zadaném bodě došlo mezi lety 1990 a 2018 (__uveďte kategorie__ Land Cover pro obě období a jejich __porovnání__, kategorie uvěďte __slovním názvem i kódem__{.primary_color})
+6. k jaké __změně využití území__ v zadaném bodě došlo mezi lety 1990 a 2018
 
     - využijte data evropského programu [__Copernicus__](https://www.copernicus.eu/cs "program EU pro družicové pozorování Země v zájmu obecného užitku všech občanů"){.color_def .underlined_dotted .external_link_icon target="_blank"} – __:material-layers: Corine Land Cover Europe__{.bg .color_def target="_blank"}
     - dostupné ze stránek &nbsp;[__Evropské agentury pro životní prostředí (EEA)__](https://land.copernicus.eu/en/products/corine-land-cover?tab=main){ .color_def .underlined_dotted .external_link_icon target="_blank"}&nbsp; či &nbsp;[__Copernicus Land Monitoring Service (CLMS)__](https://www.eea.europa.eu/en/datahub/datahubitem-view/a5144888-ee2a-4e5d-a7b0-2bbf21656348){ .color_def .underlined_dotted .external_link_icon target="_blank"}
+    - jako odpověď uveďte __kód a slovní název kategorie Land Cover pro obě období__{.outlined} a __jejich slovní porovnání__{.outlined}
 
 ---
 
@@ -143,6 +149,7 @@ S využitím __mapové prohlížečky ArcGIS Online__, __mapových služeb__ či
 7. jaké hodnoty dosahovala v zadané lokalitě __intenzita světelného znečištění__ v roce 2022
 
     - využijte vrstvy __:material-layers: Světelné znečištění v ČR za rok 2022__{.bg} od [__České informační agentury životního prostředí__](https://tiledimageservices2.arcgis.com/LlQJoYHf9cwrM7NJ/arcgis/rest/services/raster01_final3crf/ImageServer "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA). <figcaption>(vrstva byla přepublikována pro účely výuky – odkaz proto nevede přímo na server agentury CENIA)</figcaption>
+    - jako odpověď uveďte __hodnotu intenzity znečištění z rastru v rozmezí 1 až 5__{.outlined}
 
     <!--  Puvodni vrstva ZDE: https://gis.cenia.cz/geoserver/svetelne_znecisteni/wms?service=WMS&request=GetCapabilities  -->
 
@@ -151,6 +158,7 @@ S využitím __mapové prohlížečky ArcGIS Online__, __mapových služeb__ či
 8. příslušnost zadané lokality ke __stavebnímu a matričnímu úřadu__
 
     - využijte vrstvy __:material-layers: Působnost úřadů__{.bg} od [__České informační agentury životního prostředí__](https://gis.cenia.cz/geoserver/pusobnost_uradu/wfs?SERVICE=WFS&request=GETCapabilities "adresu odkazu lze přímo použít jako mapovou vrstvu"){.color_def .underlined_dotted .external_link_icon target="_blank"} (CENIA).
+    - jako odpověď uveďte __název příslušného úřadu (pro oba typy instituce)__{.outlined}
 
 ---
 
@@ -203,9 +211,14 @@ K vytvoření kompozic využijte platformu
 [__Národní geoportál INSPIRE__](https://geoportal.gov.cz/web/guest/about-inspire){.color_def .underlined_dotted .external_link_icon target="_blank"} 
 a __příslušné datové vrstvy__. Vrstvy prolněte __pomocí nástrojů průhlednosti vrstev__. Kompozice exportujte do obrázku (funkce Print) a __vložte do technické zprávy__.
 
-???+ task-fg-color "Výsledek: Technická zpráva (ukázka)"
+??? task-fg-color "Výstup cvičení: Technická zpráva (ukázka)"
 
-    <iframe src="https://drive.google.com/file/d/1ZqcjTFb2wTY1slDzBp9NWATWiMmgRROJ/preview" width="100%" height="400" style="border:0;"></iframe>
+    <iframe src="https://drive.google.com/file/d/1ZqcjTFb2wTY1slDzBp9NWATWiMmgRROJ/preview" width="100%" height="100%" style="border:0;"></iframe>
+    {.custom_height}
+
+<style>
+    .custom_height{height:80vw;}
+</style>
 
 <hr class="level-1">
 
@@ -224,7 +237,7 @@ Povinným výstupem úlohy je __technická zpráva v elektronické podobě__ ode
 
 ### Opravy
 
-V případě, že odevzdaný výstup není správný, je vyučujícím emailem __vrácen k opravě__. Opravený výstup se odevzdává opět prostřednictvím systému Moodle. Výstup lze odevzdat po __maximálně dvou opravách__, v případě pozdního odevzdání či nesprávného výstupu po druhé opravě je úloha __trvale označena jako nesplněná__.
+V případě, že odevzdaný výstup není správný, je vyučujícím emailem __vrácen k opravě__. Opravený výstup se odevzdává opět prostřednictvím systému Moodle. Výstup lze odevzdat po __maximálně dvou opravách__, v případě pozdního odevzdání či nesprávného výstupu po druhé opravě je úloha __trvale označena jako nesplněná__{style="color:#c22521;"}.
 
 [Tabulka hodnocení úloh](../hodnoceni.md){ .md-button .md-button--primary }
 {align=center}
