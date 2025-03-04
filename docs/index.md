@@ -7,7 +7,7 @@ GIS má široké uplatnění, od __:fontawesome-solid-tree-city: městského pl�
 
 V rámci předmětu __Stavební geodézie A__ budete mít ve dvou přednáškách a dvou cvičeních možnost nahlédnout do světa GIS z pohledu architekta. Dozvíte se, proč by se vám mohla geoprostorová data hodit a jak je získávat pro svůj projekt. Zatímco přednášky vás provedou základní teorií, cvičení se věnují __praktickému ovládání GIS software__ – zejména porozumění práce s daty a provádění jednoduchých analýz. Během výuky je používán webový systém __:simple-esri: ArcGIS Online__{: style="white-space: nowrap;"}.
 
-Pokud by vás geomatika (obor zabývající se geografickými informačními systémy) zaujala a chtěli byste se dozvědět více, lze si zapsat navazující nepovinný předmět __GIS v architektuře (155GISA)__, který se problematice věnuje hlouběji.
+Pokud by vás geomatika (obor zabývající se geografickými informačními systémy) zaujala a chtěli byste se dozvědět více, lze si zapsat navazující nepovinný předmět [__ArcGIS (155YGIS)__](https://kos.cvut.cz/course-syllabus/155YGIS/), který se problematice věnuje hlouběji.
 
 <h2 style="text-align:center;">Naučíte se</h2>
 <!-- styl je zde pridany HTML tagem (ne pomoci '##'), aby se text neobjevil v tabulce obsahu vlevo na strance -->

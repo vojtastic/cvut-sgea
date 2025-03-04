@@ -211,6 +211,12 @@ K vytvoření kompozic využijte platformu
 [__Národní geoportál INSPIRE__](https://geoportal.gov.cz/web/guest/about-inspire){.color_def .underlined_dotted .external_link_icon target="_blank"} 
 a __příslušné datové vrstvy__. Vrstvy prolněte __pomocí nástrojů průhlednosti vrstev__. Kompozice exportujte do obrázku (funkce Print) a __vložte do technické zprávy__.
 
+<hr class="level-1">
+
+## Výstupy cvičení
+
+Povinným výstupem úlohy je __technická zpráva v elektronické podobě__{.outlined} odevzdaná v termínu prostřednictvím systému __Moodle__.
+
 ??? task-fg-color "Výstup cvičení: Technická zpráva (ukázka)"
 
     <iframe src="https://drive.google.com/file/d/1ZqcjTFb2wTY1slDzBp9NWATWiMmgRROJ/preview" width="100%" height="100%" style="border:0;"></iframe>
@@ -219,12 +225,6 @@ a __příslušné datové vrstvy__. Vrstvy prolněte __pomocí nástrojů průhl
 <style>
     .custom_height{height:80vw;}
 </style>
-
-<hr class="level-1">
-
-## Odevzdání
-
-Povinným výstupem úlohy je __technická zpráva v elektronické podobě__ odevzdaná v termínu prostřednictvím systému __Moodle__.
 
 Úloha je uznána, pokud technická zpráva obsahuje __všechny požadované náležitosti__ (viz níže) a má __správný formát__ (PDF).
 
