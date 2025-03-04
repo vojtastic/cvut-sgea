@@ -1,10 +1,10 @@
 site_name: Stavební geodézie A (154SGEA) – ČÁST GIS
 nav:
-  - Charakteristika předmětu: index.md
+  - Základní informace: index.md
   - Cvičení:
       - Práce s webovými mapovými službami: cviceni/cviceni03.md
       - Tvorba webové mapy, export dat: cviceni/cviceni04.md
-  - Data: data.md
+  # - Data: data.md
   - Hodnocení úloh: hodnoceni.md
 plugins:
   - search

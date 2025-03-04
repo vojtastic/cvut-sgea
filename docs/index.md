@@ -7,7 +7,7 @@ GIS má široké uplatnění, od __:fontawesome-solid-tree-city: městského pl�
 
 V rámci předmětu __Stavební geodézie A__ budete mít ve dvou přednáškách a dvou cvičeních možnost nahlédnout do světa GIS z pohledu architekta. Dozvíte se, proč by se vám mohla geoprostorová data hodit a jak je získávat pro svůj projekt. Zatímco přednášky vás provedou základní teorií, cvičení se věnují __praktickému ovládání GIS software__ – zejména porozumění práce s daty a provádění jednoduchých analýz. Během výuky je používán webový systém __:simple-esri: ArcGIS Online__{: style="white-space: nowrap;"}.
 
-Pokud by vás geomatika (obor zabývající se geografickými informačními systémy) zaujala a chtěli byste se dozvědět více, lze si zapsat navazující nepovinný předmět [__ArcGIS (155YGIS)__](https://kos.cvut.cz/course-syllabus/155YGIS/), který se problematice věnuje hlouběji.
+Pokud by vás geomatika (obor zabývající se geografickými informačními systémy) zaujala a chtěli byste se dozvědět více, lze si zapsat navazující nepovinný předmět [__ArcGIS (155YGIS)__](https://kos.cvut.cz/course-syllabus/155YGIS/ "stránka předmětu v KOS"){.color_def .underlined_dotted .external_link_icon target="_blank"}, který se problematice věnuje hlouběji.
 
 <h2 style="text-align:center;">Naučíte se</h2>
 <!-- styl je zde pridany HTML tagem (ne pomoci '##'), aby se text neobjevil v tabulce obsahu vlevo na strance -->
@@ -83,28 +83,8 @@ Ostatní přednášky zajišťuje Katedra speciální geodézie (K154).
 účast povinná (s možnými náhradami)
 {: style="opacity:50%;margin-top:0;"}
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/Ing.-Marek-Hoffmann_IMG_9809_s1@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__Ing. Marek Hoffmann [:fontawesome-solid-square-envelope:](mailto:marek.hoffmann@fsv.cvut.cz "marek.hoffmann@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
-{style="display:inline; white-space: nowrap; line-height:2;"}
-<!-- kvuli zobrazovani na mobilu -->
-
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__Ing. Vojtěch Cehák [:fontawesome-solid-square-envelope:](mailto:vojtech.cehak@fsv.cvut.cz "vojtech.cehak@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
-{style="display:inline; white-space: nowrap; line-height:2;"}
-<!-- kvuli zobrazovani na mobilu -->
-
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-13.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__Ing. Josef Münzberger [:fontawesome-solid-square-envelope:](mailto:josef.munzberger@fsv.cvut.cz "josef.munzberger@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
-{style="display:inline; white-space: nowrap; line-height:2;"}
-<!-- kvuli zobrazovani na mobilu -->
-
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__Mgr. Petra Justová [:fontawesome-solid-square-envelope:](mailto:petra.justova@fsv.cvut.cz "petra.justova@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
-{style="display:inline; white-space: nowrap; line-height:2;"}
-<!-- kvuli zobrazovani na mobilu -->
-
 ![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
-__Ing. František Mužík [:fontawesome-solid-square-envelope:](mailto:frantisek.muzik@fsv.cvut.cz "frantisek.muzik@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+__Ing. Tomáš Janata, Ph.D. [:fontawesome-solid-square-envelope:](mailto:tomas.janata@fsv.cvut.cz "tomas.janata@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
 {style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
@@ -113,7 +93,18 @@ __Ing. Jaroslav Šedina, Ph.D. [:fontawesome-solid-square-envelope:](mailto:jaro
 {style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
-![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/iconmonstr-user-male-thin.png){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"} __Ing. Tomáš Janata, Ph.D. [:fontawesome-solid-square-envelope:](mailto:tomas.janata@fsv.cvut.cz "tomas.janata@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.75x-4.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. František Mužík [:fontawesome-solid-square-envelope:](mailto:frantisek.muzik@fsv.cvut.cz "frantisek.muzik@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.5x-16.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Mgr. Petra Justová [:fontawesome-solid-square-envelope:](mailto:petra.justova@fsv.cvut.cz "petra.justova@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
+{style="display:inline; white-space: nowrap; line-height:2;"}
+<!-- kvuli zobrazovani na mobilu -->
+
+![](https://geomatics.fsv.cvut.cz/wp-content/uploads/2022/01/03-edit_export@0.3x.jpg){: .off-glb .no-filter style="height: 1.5em; vertical-align: -.4em; clip-path: circle();"}
+__Ing. Vojtěch Cehák [:fontawesome-solid-square-envelope:](mailto:vojtech.cehak@fsv.cvut.cz "vojtech.cehak@fsv.cvut.cz"){style="color:var(--md-default-fg-color);"}__{style="padding-right:1rem;"}
 {style="display:inline; white-space: nowrap; line-height:2;"}
 <!-- kvuli zobrazovani na mobilu -->
 
