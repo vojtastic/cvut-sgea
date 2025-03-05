@@ -118,12 +118,12 @@ Ostatní cvičení zajišťuje Katedra speciální geodézie (K154).
 
 ## Harmonogram :material-calendar:{style="clip-path: circle(); color:var(--md-default-bg-color); background-color:var(--md-default-fg-color); padding:6px; font-size:120%; vertical-align:-.1em"} {: style="margin-bottom:0;"}
 
-[![](./assets/index/schedule_light.svg#only-light){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B232){target="_blank"}
-[![](./assets/index/schedule_dark.svg#only-dark){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B232){target="_blank"}
+[![](./assets/index/schedule_light.svg#only-light){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B242){target="_blank"}
+[![](./assets/index/schedule_dark.svg#only-dark){.off-glb .no-filter}](https://kos.cvut.cz/schedule/course/154SGEA/semester/B242){target="_blank"}
 
 ---
 
-[Stránka předmětu v :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/154SGEA/B232){ .md-button .md-button--primary target="_blank"}
+[Stránka předmětu v :custom-kos-logo-img-BW:{.middle style="margin-left:3px;"} :custom-kos-logo-BW:{.xl .middle}](https://kos.cvut.cz/course-syllabus/154SGEA/){ .md-button .md-button--primary target="_blank"}
 {align=center}
 
 <br>
